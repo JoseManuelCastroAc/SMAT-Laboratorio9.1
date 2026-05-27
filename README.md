@@ -13,11 +13,9 @@ Sistema de monitoreo SMAT desarrollado con:
 
 Emular dispositivos IoT tipo ESP32/Raspberry Pi capaces de:
 
-- Generar telemetría automáticamente
+- Generar telemetría automáticamente (Debajo del nombre, esta en verde)
 - Enviar datos cada pocos segundos
-- Detectar niveles críticos
-- Mostrar alertas visuales en la App Flutter
-- Simular un sistema de monitoreo en tiempo real
+- Detectar niveles críticos (Logica de negocio)
 
 ---
 
