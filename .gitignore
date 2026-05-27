@@ -1,0 +1,44 @@
+# PYTHON
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+venv/
+.env
+
+# FASTAPI
+.sm
+
+# FLUTTER
+.dart_tool/
+.packages
+.pub/
+build/
+
+# FLUTTER WINDOWS
+windows/flutter/ephemeral/
+windows/flutter/generated_plugin_registrant.*
+
+# VS CODE
+.vscode/
+
+# IDEA
+.idea/
+
+# MAC
+.DS_Store
+
+# LOGS
+*.log
+
+# SQLITE
+smat.db
+
+# CACHE
+.cache/
+
+# TEMP
+tmp/
+temp/
