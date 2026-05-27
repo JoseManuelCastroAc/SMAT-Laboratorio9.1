@@ -7,8 +7,6 @@ Sistema de monitoreo SMAT desarrollado con:
 - Python IoT Emulator
 - SQLite
 
-Este laboratorio simula sensores IoT que envían lecturas automáticas de nivel de agua hacia una API REST usando JWT y HTTP.
-
 ---
 
 # Objetivo
@@ -45,9 +43,6 @@ pip install fastapi uvicorn sqlalchemy python-jose requests
 ```
 
 ## Flutter
-
-- Flutter SDK instalado
-- Visual Studio con Desktop Development
 
 Verificar:
 
@@ -131,73 +126,8 @@ python sensor_emitter.py
 
 ---
 
-# Funcionamiento del Emulador IoT
-
-El script:
-
-- Obtiene automáticamente el Token JWT
-- Detecta todas las estaciones registradas
-- Genera lecturas aleatorias
-- Envía telemetría automáticamente
-- Detecta niveles críticos
-
----
-
-# Sistema de Alertas
-
-Si el valor supera:
-
-```text
-70 cm
-```
-
-El sistema:
-
-- Imprime alerta en consola
-- Cambia color de la interfaz Flutter
-- Simula modo de emergencia
-
----
-
-# Flujo del Sistema
-
-```text
-IoT Emulator
-      ↓
-FastAPI Backend
-      ↓
-SQLite Database
-      ↓
-Flutter App
-```
-
----
-
-# Funcionalidades Implementadas
-
-- Login JWT
-- CRUD de estaciones
-- Telemetría automática
-- Alertas visuales
-- Refresco automático
-- Simulación multisensor
-- Persistencia SQLite
-
----
-
-# Prueba del Laboratorio
-
-Para validar correctamente:
-
-1. Crear estaciones desde Flutter
-2. Ejecutar IoT
-3. Verificar actualización automática
-4. Confirmar alertas rojas cuando el valor > 70
-
----
-
 # Autor
 
-Victor Manuel Castro Acuña
+Jose Manuel Castro Acuña
 
 Laboratorio 9.1 - Arquitectura IoT y Telemetría
